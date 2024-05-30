@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+* {
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+}
+p {
+  font-family: "Gilroy-Regular";
+}
+h1,
+b {
+  font-family: "Gilroy", sans-serif;
+}
+
+.decorate {
+  font-family: "Poppins" !important;
+  -webkit-text-stroke: 1px #70707080;
+  -webkit-text-fill-color:transparent;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+  margin-left: -50px;
+  overflow: hidden !important;
+}
+
+.decorate-1 {
+  font-family: "Poppins" !important;
+  -webkit-text-stroke: 1px #e1d6d6e4;
+  -webkit-text-fill-color:transparent;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+}
+.decorate-2 {
+  font-family: "Poppins" !important;
+  -webkit-text-stroke: 1px #70707080;
+  -webkit-text-fill-color:transparent;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  margin-left: -50px;
+  overflow: hidden !important;
+}
+
+
+.card {
+  border-radius: 80px;
+}
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+.lottie-animation-json {
+  position: static;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.lottie-about {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.lottie-animation {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.bc-1{
+  border-top-left-radius: 150px;
+}
+
+.bc-2{
+  border-top-right-radius: 150px;
+}
+.bc-3{
+  border-bottom-left-radius: 150px;
+}
+.bc-4{
+  border-bottom-right-radius: 150px;
+}
